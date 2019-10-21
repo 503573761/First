@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+你好世界
+<div th:text="${msg}"></div>
+<br>
+<!-- 字符长度 -->
+<!-- <span th:text="${#string.length}"></span> -->
+<!-- 以什么开始 -->
+<!-- <span th:text="${#string.starWith(msg,'w')}"></span> -->
+<br>
+<span th:if="${msg}!=''">男</span>
+<br>
+<!-- <span th:switch="${msg}">
+<span th:case=""></span> -->
+
+
+</body>
+</html>
